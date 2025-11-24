@@ -3,7 +3,7 @@
 ## **Purpose**
 Build a lightweight, repeatable workflow for managing and processing text-based project files. Set up a workspace, organize raw inputs, apply transformations, and generate summary reports.
 
-### **Task 1: Create the Workspace and Seed Data***
+### **Task 1: Create the Workspace and Seed Data**
 Set up the main directory and create initial input files. <br>
 ```mkdir pipeline_lab``` <br>
 ```cd pipeline_lab/``` <br>
