@@ -5,9 +5,9 @@ Practice file-searching, pattern matching, file-type inspection, and link creati
 
 ### **Task 1: Set Up the Project Structure**
 Create the base working environment.
-```mkdir -p ~/SearchLab/docs ~/SearchLab/reports ~/SearchLab/images```
-```touch ~/SearchLab/docs/notes.txt```
-```touch ~/SearchLab/reports/summary.log```
+```mkdir -p ~/SearchLab/docs ~/SearchLab/reports ~/SearchLab/images``` <br>
+```touch ~/SearchLab/docs/notes.txt``` <br>
+```touch ~/SearchLab/reports/summary.log``` <br>
 ```touch ~/SearchLab/images/photo.jpg```
 
 Explanation:
@@ -15,7 +15,7 @@ This establishes a directory tree with representative files. The structure is us
 
 ### **Task 2: Locate Files with find**
 Search within the project directory using filename patterns.
-```find ~/SearchLab -name "*.txt"```
+```find ~/SearchLab -name "*.txt"``` <br>
 ```find ~/SearchLab -name "summary.log"```
 
 Explanation:
@@ -23,13 +23,13 @@ find scans directories recursively. `-name` filters results by pattern. This is 
 
 ### **Task 3: Use Wildcards for Quick Matching**
 Navigate into each directory and list files using shell globbing.
-```cd ~/SearchLab/docs```
+```cd ~/SearchLab/docs``` <br>
 ```ls *.txt```
 
-```cd ~/SearchLab/reports```
+```cd ~/SearchLab/reports``` <br>
 ```ls *.log```
 
-```cd ~/SearchLab/images```
+```cd ~/SearchLab/images``` <br>
 ```ls p*```
 
 Explanation:
@@ -37,11 +37,11 @@ Wildcards provide fast filtering without recursion. *.ext matches by extension. 
 
 ### **Task 4: Inspect File Types and Create Links**
 Check detailed file information and practice creating hard and soft links.
-```ls -l ~/SearchLab```
-```ln -s /home/afatima/SearchLab/docs/notes.txt ~/notes.txt```
-```ln /home/afatima/SearchLab/reports/summary.log ~/summary.log```
+```ls -l ~/SearchLab``` <br>
+```ln -s /home/afatima/SearchLab/docs/notes.txt ~/notes.txt``` <br>
+```ln /home/afatima/SearchLab/reports/summary.log ~/summary.log``` <br>
 
 Explanation:
-```ls -l``` shows file types, permissions, and link counts.
-Soft links act as pointers to another file’s path.
+```ls -l``` shows file types, permissions, and link counts. <br>
+Soft links act as pointers to another file’s path. <br>
 Hard links create an additional directory entry referencing the same underlying data.
