@@ -5,11 +5,11 @@ Build a basic workflow for filtering and searching text data. Create files, exam
 
 ### **Task 1: Create and Prepare Files**
 Set up a workspace and generate sample text files. <br>
-```mkdir text_lab```
-```echo "this is the first line" > text_lab/sample.txt```
+```mkdir text_lab``` <br>
+```echo "this is the first line" > text_lab/sample.txt``` <br>
 ```echo "this is the second line" >> text_lab/sample.txt```
 
-```cp text_lab/sample.txt text_lab/sample.txt1```
+```cp text_lab/sample.txt text_lab/sample.txt1``` <br>
 ```cp text_lab/sample.txt text_lab/sample.txt2```
 
 Explanation: <br>
