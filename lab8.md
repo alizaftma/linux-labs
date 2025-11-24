@@ -5,7 +5,7 @@ This lab creates a basic system health and monitoring report. It covers process 
 
 ### **Task 1: Manage and Monitor Processes**
 Manage foreground and background processes and examine runtime activity. Adjust process priority to observe scheduling behavior. <br>
-Commands used: `bg`, `fg`, `jobs`, `ps`, `nice` <br>
+Commands used: <br>`bg`, `fg`, `jobs`, `ps`, `nice` <br>
 Explanation: <br>
  `jobs` lists background and stopped tasks. <br>
  `bg` resumes a task in the background. <br>
