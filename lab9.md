@@ -22,7 +22,8 @@ Explanation: <br>
 
 ### **Task 2: Add an Interactive Menu**
 Implement a simple menu system using a loop and a case structure. Each option logs its activity. <br>
-**Script:** <br>
+
+**Script:** 
 ```
 while true; do
   echo "\nSelect an option:"
