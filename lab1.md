@@ -18,8 +18,8 @@ Use ```mkdir -p``` with full paths to avoid errors and ensure directories are cr
 
 ```ls /home/afatima/project_lab```
 
-Explanation
- A structured layout keeps different file types separate. Using absolute paths removes ambiguity about where directories are placed.
+Explanation:
+A structured layout keeps different file types separate. Using absolute paths removes ambiguity about where directories are placed.
 
 ### **Task 3: Create Sample Files**
 Use ```touch``` to create empty files. This simulates real project assets.
@@ -31,8 +31,8 @@ Use ```touch``` to create empty files. This simulates real project assets.
 ```ls -l /home/afatima/project_lab/Report```
 ```ls -l /home/afatima/project_lab/Images```
 
-Explanation
- ```touch``` creates a file if it doesn’t exist. ```ls -l``` shows file details (permissions, size, timestamps), confirming creation.
+Explanation:
+```touch``` creates a file if it doesn’t exist. ```ls -l``` shows file details (permissions, size, timestamps), confirming creation.
 
 ### **Task 4: Copy Files**
 Use ```cp``` to duplicate files across directories.
@@ -42,8 +42,8 @@ Use ```cp``` to duplicate files across directories.
 ```ls /home/afatima/project_lab/Docs```
 ```ls /home/afatima/project_lab/Report```
 
-Explanation
- Copying is useful when multiple teams or folders need access to the same content. Each directory ends up with both files.
+Explanation:
+Copying is useful when multiple teams or folders need access to the same content. Each directory ends up with both files.
 
 ### **Task 5: Move and Rename Files**
 Use ```mv``` to rename or relocate files.
@@ -51,5 +51,5 @@ Use ```mv``` to rename or relocate files.
 ```mv /home/afatima/project_lab/Images/photo.jpg /home/afatima/project_lab/Images/project_photo.jpg```
 ```tree /home/afatima/project_lab```
 
-Explanation
+Explanation:
 ```mv``` handles both moves and renames. ```tree``` gives a complete visual of the final layout, ensuring everything is in the correct place.
