@@ -10,7 +10,7 @@ Create the base working environment. <br>
 ```touch ~/SearchLab/reports/summary.log``` <br>
 ```touch ~/SearchLab/images/photo.jpg```
 
-Explanation:
+Explanation: <br>
 This establishes a directory tree with representative files. The structure is used for search tests and link operations.
 
 ### **Task 2: Locate Files with find**
