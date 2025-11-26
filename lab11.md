@@ -15,10 +15,13 @@ ls -l ~/transfer_lab/outgoing/
 Explanation: <br>
 ```mkdir -p ~/transfer_lab/{incoming,outgoing,mirror}``` <br>
 Creates transfer_lab with three subfolders: incoming, outgoing, and mirror. -p avoids errors if folders already exist.<br>
+
 ```echo "sample file for transfer lab" > ~/transfer_lab/outgoing/sample.txt``` <br>
 Writes some text into a new file called sample.txt in the outgoing folder. <br>
+
 ```ls -l ~/transfer_lab/``` <br>
 Lists the folders inside transfer_lab with details. <br>
+
 ```ls -l ~/transfer_lab/outgoing/``` <br>
 Lists the files inside outgoing with details. <br>
 
@@ -32,6 +35,7 @@ ls -l ~/transfer_lab/incoming/
 Explanation: <br>
 ```wget -O ~/transfer_lab/incoming/web.html http://example.com```
 Downloads a webpage from the internet and saves it as web.html in the incoming folder. <br>
+
 ```ls -l ~/transfer_lab/incoming/```<br>
 Lists files in incoming to confirm the download. <br>
 
@@ -45,8 +49,10 @@ ls -l ~/transfer_lab/outgoing/
 Explanation: <br>
 ```scp ~/transfer_lab/incoming/web.html ~/transfer_lab/outgoing/web_copy.html``` <br>
 Copies web.html from incoming to outgoing as web_copy.html. scp is usually used for remote copying but works locally too. <br>
+
 ```scp ~/transfer_lab/outgoing/sample.txt ~/transfer_lab/outgoing/sample_copy.txt```<br>
 Makes a copy of sample.txt inside outgoing as sample_copy.txt. <br>
+
 ```ls -l ~/transfer_lab/outgoing/```<br>
 Shows the files in outgoing to confirm copies. <br>
 
