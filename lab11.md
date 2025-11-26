@@ -74,5 +74,5 @@ Updates files in mirror only if they are newer than the existing ones. <br>
 ```echo "additional line appended to demonstrate update." >> ~/transfer_lab/mirror/sample.txt```<br>
 Adds a line to a file in mirror to show updates are possible.<br>
 
-ls -R ~/transfer_lab/mirror/
+```ls -R ~/transfer_lab/mirror/```<br>
 Lists all files in mirror and its subfolders recursively.
